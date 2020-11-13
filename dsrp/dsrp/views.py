@@ -311,6 +311,7 @@ def dashboard_choose_view(request):
 
         return render(request, 'dashboard/pipeline/choose.html', locals())
 
+import time
 
 @login_required(login_url='/accounts/login')
 def dashboard_status_view(request):
@@ -318,6 +319,7 @@ def dashboard_status_view(request):
     if request.method == "POST":
 
         return redirect('../results/')
+            
 
     elif request.method == "GET":
 

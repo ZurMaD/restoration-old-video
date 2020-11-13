@@ -48,6 +48,12 @@
             <div>
                 *Cuando todo haya finalizado haz <a href='../results/'> clic aquí</a>
             </div>
+            <form method="POST" class="post-form" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div>
+                    <button id="generar" type="submit" class="save btn btn-warning">Siguiente</button>
+                </div>
+            </form>
         </div>
     </div>
     <hr>
