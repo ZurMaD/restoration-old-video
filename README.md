@@ -9,7 +9,7 @@
     <img src="/assets/logo.png">
   </a>
 
-  <h3 align="center">ROVDSRP v1.0<br>
+  <h3 align="center">ROVDSRP v1.0 (Under dev)<br>
   Restoration Old Videos Data Science Research Perú</h3>
 
   <p align="center">
